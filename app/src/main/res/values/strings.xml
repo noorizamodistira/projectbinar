@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">binar-challengech5</string>
+    <string name="login_text">Login To Your Account</string>
+    <string name="login_button_text">Login</string>
+    <string name="forgot_password_hint">Forgot Password</string>
+    <string name="register_hint">Register</string>
+    <string name="register">Register</string>
+    <string name="username">username</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="change_passowrd">Ubah Password</string>
+    <string name="lupa_password">Forgot Password</string>
+    <string name="password_baru">Masukan Passoword Baru</string>
+    <string name="ulang_password_baru">Ulang Password Baru</string>
+    <string name="register_text">Registrasi</string>
+    <string name="username_hint">Username</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="phone_number_hint">Nomor Telepon</string>
+    <string name="register_button_text">Register</string>
+</resources>

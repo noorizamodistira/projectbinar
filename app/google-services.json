@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "956325804927",
+    "project_id": "challengech5-modiss",
+    "storage_bucket": "challengech5-modiss.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956325804927:android:12acd0ef3a66dc5001f84a",
+        "android_client_info": {
+          "package_name": "com.modiss.binar_challengech5"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbPj-q72Ho-TUMgGPsyGnNdWljWqvybA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956325804927:android:8b5e70bef14242af01f84a",
+        "android_client_info": {
+          "package_name": "com.modiss.challengech3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbPj-q72Ho-TUMgGPsyGnNdWljWqvybA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
