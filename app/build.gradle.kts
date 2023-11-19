@@ -30,12 +30,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "1.8"
-    }
+        jvmTarget = "17"
     buildFeatures{
         viewBinding = true
     }
@@ -52,7 +51,7 @@ dependencies {
     implementation("androidx.navigation:navigation-ui-ktx:2.4.0")
     implementation("androidx.recyclerview:recyclerview:1.3.1")
     implementation("androidx.room:room-ktx:2.5.2")
-    implementation ("androidx.room:room-runtime:2.5.2")
+    implementation("androidx.room:room-runtime:2.5.2")
     implementation("com.google.firebase:firebase-auth:22.2.0")
     implementation("com.google.firebase:firebase-database:20.3.0")
     kapt("androidx.room:room-compiler:2.5.2")
@@ -60,19 +59,28 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
-    //library retrofit
+    //retrofit
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
-    //library GSON
+    //GSON
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
-    //library OKHTTP
+    //OKHTTP
     implementation("com.squareup.okhttp3:logging-interceptor:4.9.3")
 
     //load gambar online library glide
     implementation("com.github.bumptech.glide:glide:4.11.0")
 
-    //library ViewModel
+    //ViewModel
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0")
 
-    //library untuk livedata
+    //livedata
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.2.0")
+
+    // koin
+    implementation("io.insert-koin:koin-android:3.5.0")
+
+    //unit test
+    testImplementation("io.mockk:mockk-android:1.13.8")
+    testImplementation("io.mockk:mockk-agent:1.13.8")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.2")
+    testImplementation("app.cash.turbine:turbine:1.0.0")
 }

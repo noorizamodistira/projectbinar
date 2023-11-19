@@ -19,5 +19,7 @@ interface ApiService {
 
     @POST("order")
     fun orderFood(@Body orderRequest: OrderRequest): Call<OrderResponse>
+    abstract fun getListFood(): ListFoodResponse
+    abstract fun createOrder(orderRequest: OrderRequest): OrderResponse
 }
 
